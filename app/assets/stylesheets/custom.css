@@ -1,0 +1,23 @@
+logo {
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+#logo:hover {
+	color: red;
+	text-decoration: none;
+}
+.center {
+	text-align: center;
+}
+.ichnos {
+	text-align: center;	
+	background-image: asset-url('images/test.jpg');
+	padding-top: 20px;
+	background-color: #edcb74;
+	background-size: cover;
+	height: 300px;	
+}
