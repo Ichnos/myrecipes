@@ -1,23 +1,65 @@
-logo {
-	float: left;
-	font-size: 1.7em;
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: -1px;
-	font-weight: bold;
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #6b6968;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
 }
 #logo:hover {
-	color: red;
-	text-decoration: none;
+  color: #edb313;
+  text-decoration: none;
 }
 .center {
-	text-align: center;
+  text-align: center;
 }
-.ichnos {
-	text-align: center;	
-	background-image: asset-url('images/test.jpg');
-	padding-top: 20px;
-	background-color: #edcb74;
-	background-size: cover;
-	height: 300px;	
+.jumbotron {  
+  text-align: center; 
+  background-image: url("~test.jpeg");
+  background-color: transparent;
+  padding-top: 20px;
+  background-size: cover;
+  height: 300px;  
 }
+.jumbotron h1 {
+  color: #6b6968;
+  font-size: 2.7em;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.jumbotron h2 {
+  color: #999694;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.btn-xlarge {
+  background-color: #8a8884;
+}
+.my_footer {
+  text-align: center;
+    background-color: #edeceb;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.my_footer p{  
+  color: #edb313;
+}
+.my_footer span{  
+  color: #967008;
+  font-weight: bold;
+}
+/*
+Assignment: Create the footer, add styling and then paste an image of it to the Q & A!
+
+Make app production ready (ensure the db gems are in their appropriate groups), then do a commit, create a heroku app, deploy!
+
+Assignment: Post a link to your herokuapp homepage to the Q & A of the video
+
+Schermo intero
+*/

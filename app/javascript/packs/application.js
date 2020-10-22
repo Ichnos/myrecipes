@@ -18,3 +18,6 @@ import "bootstrap"
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+// add these 2 lines
+import 'src/stylesheets/application'
+const images = require.context('../images', true)
