@@ -40,6 +40,11 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
+group :production do
+  # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
+  gem 'pg'
+end
+
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
